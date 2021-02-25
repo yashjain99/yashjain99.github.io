@@ -98,7 +98,7 @@ export function Contact() {
                 <div className = "socialProfile" >
                     <div>
                         <a href = "https://www.linkedin.com/in/yash-jain-b8b9b1191/" target = "_blank">
-                            <img className = "logo" src="/linkedin_logo.png" alt="LinkedIn"/>
+                            <img className = "logo" src="/linkedIn_logo.png" alt="LinkedIn"/>
                         </a>
                     </div>
                     <div>
