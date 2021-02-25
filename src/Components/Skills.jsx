@@ -113,7 +113,7 @@ export function Skills() {
     return (
         <Wrapper >
             <div className = "displayFlex" >
-                <img className = "image" src = "/setup.PNG" alt = "computers"/>
+                <img className = "image" src = "/setup.png" alt = "computers"/>
             </div>
             <div className = "aboutSection" id = "about">
                 <StyledInfo>
@@ -161,7 +161,7 @@ export function Skills() {
                     </div>
                     <div>
                         <a href = "https://drive.google.com/file/d/1meHSIprsy-A3OVvvYFahu3q6n6bNbX4b/view?usp=sharing" target="_blank">
-                            <img className = "resume" src="/resume.PNG" alt="resume"/>
+                            <img className = "resume" src="/resume.png" alt="resume"/>
                             <img className = "downloadIcon" src="/download.png" alt="download icon"/>
                         </a>
                     </div>

@@ -65,7 +65,7 @@ export function Navbar() {
     return (
         <StyledNavbar>
             <div className="left">
-                <img className = "logo" src = "/logo.PNG" alt = "logo"/>
+                <img className = "logo" src = "/logo.png" alt = "logo"/>
             </div>
             <div className="right">
                 <div>

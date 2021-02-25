@@ -48,7 +48,7 @@ export function Intro() {
         <Wrapper>
             <div className = "root">
                 <ImageContainer>
-                        <img className = "picture" src = "/profile_pic.PNG" alt = "profile pic" />
+                        <img className = "picture" src = "/profile_pic.png" alt = "profile pic" />
                 </ImageContainer>
                 <div >
                     <div className = "title">
