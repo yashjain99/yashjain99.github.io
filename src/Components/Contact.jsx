@@ -2,18 +2,17 @@ import React from 'react';
 import styled from "styled-components";
 
 const Footer = styled.div`
-    background-color: #ecc94b;
     padding: 30px auto;
 
     a {
         text-decoration: none;
-        color: #131313;
+        color: #ecc94b;
     }
 
     .subTitle {
         font-weight: 500;
-        font-size: 25px;
-        color: #131313;
+        font-size: 20px;
+        color: #ecc94b;
         display: flex;
         flex-direction: column;
 
@@ -30,7 +29,7 @@ const Footer = styled.div`
 `
 
 const Header = styled.div`
-    color: #131313;
+    color: #ecc94b;
     text-align: center;
     font-size: 50px;
     padding: 10px 0;
@@ -46,22 +45,26 @@ const ContactInfo = styled.div`
     .socialProfile {
         display: grid;
         grid-template-columns: auto auto;
-        grid-gap: 10%;
+        grid-gap: 40px;
     }
 
     .logo {
-        height: 100px;
+        height: 80px;
+        width: 80px;
+        margin-top: 10px;
         border-radius: 50%;
+        box-shadow: -1px -1px 10px 10px #ecc94b;
     }
 
     @media only screen and (max-width: 750px) {
         flex-direction: column;
 
         .socialProfile {
-            margin: 0 auto;
+            text-align: center;
+            margin: 10px 0;
             display: grid;
-            grid-template-columns: auto auto;
-            grid-gap: 10%;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: auto;
         }
     }
 `
@@ -70,9 +73,11 @@ const CopyrightBar = styled.div`
     height: 50px;
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: #131313;
+    font-weight: 500;
     line-height: 50px;
-    background-color: #131313;
+    margin-top: 10px;
+    background-color: #ecc94b;
 `
 
 export function Contact() {

@@ -57,7 +57,6 @@ const useStyles = makeStyles({
         transition: "all 0.5s",
         "&:hover": {
             cursor: "pointer",
-            filter: "contrast(50%)"
         }
     },
     borderBottom: {
@@ -230,6 +229,93 @@ export function Projects() {
                                 </Button>
                             </a>
                             <a href = "https://linkedin-clone10.vercel.app/" target = "_blank">
+                                <Button className = {classes.actionButton} size = "large" >
+                                    Demo Link 🔗
+                                </Button>
+                            </a>
+                        </CardActions>
+                    </Card>
+                </Grid>
+
+                <Grid item xl={4} lg={4} md={6} sm={6} xs={8} >
+                    <Card className = {classes.cardShadow}>
+                        <CardMedia 
+                            className = {classes.projectImage}
+                            component = "img"
+                            alt = "Expense Manager"
+                            height = "100%"
+                            image = "/expense_manager.png"
+                            title = "Expense Manager"
+                        />
+                        <CardContent className = {classes.height200} >
+                            <Typography className = {classes.fontWeight900} align="center" gutterBottom variant="h5">
+                                Expense Manager
+                            </Typography>
+                            <Typography align="center" variant="body1" component="p">
+                                An app to manage expenses by keeping track of Credited and Debited amount .
+                            </Typography>
+                            <Grid align="center" container spacing={3} className = {classes.marginTop20} >
+                                <Grid item xl={4} lg={4} md={4} sm={4} xs={4} >
+                                    <img src="/html.png"  className = {classes.techStackLogos}/>
+                                </Grid>
+                                <Grid item xl={4} lg={4} md={4} sm={4} xs={4} >
+                                    <img src="/css.png"  className = {classes.techStackLogos}/>
+                                </Grid>
+                                <Grid item xl={4} lg={4} md={4} sm={4} xs={4} >
+                                    <img src="/javascript.png"  className = {classes.techStackLogos}/>
+                                </Grid>
+                            </Grid>
+                        </CardContent>
+                        <hr/>
+                        <CardActions className = {classes.actionContainer}>
+                            <a href = "https://github.com/yashjain99/expense-manager" target="_blank">
+                                <Button className = {classes.actionButton} size = "large" >
+                                    GitHub
+                                </Button>
+                            </a>
+                            <a href = "https://yashjain99.github.io/expense-manager/" target = "_blank">
+                                <Button className = {classes.actionButton} size = "large" >
+                                    Demo Link 🔗
+                                </Button>
+                            </a>
+                        </CardActions>
+                    </Card>
+                </Grid>
+                
+                <Grid item xl={4} lg={4} md={6} sm={6} xs={8} >
+                    <Card className = {classes.cardShadow}>
+                        <CardMedia 
+                            className = {classes.projectImage}
+                            component = "img"
+                            alt = "Bikewale - Clone"
+                            height = "100%"
+                            image = "/bikewale.png"
+                            title = "Bikewale - Clone"
+                        />
+                        <CardContent className = {classes.height200} >
+                            <Typography className = {classes.fontWeight900} align="center" gutterBottom variant="h5">
+                                Bikewale - Clone
+                            </Typography>
+                            <Typography align="center" variant="body1" component="p">
+                                A static clone of Bikewale.com, consists of landing page, login page and a product page.
+                            </Typography>
+                            <Grid align="center" container spacing={3} className = {classes.marginTop20} >
+                                <Grid item xl={6} lg={6} md={6} sm={6} xs={6} >
+                                    <img src="/html.png"  className = {classes.techStackLogos}/>
+                                </Grid>
+                                <Grid item xl={6} lg={6} md={6} sm={6} xs={6} >
+                                    <img src="/css.png"  className = {classes.techStackLogos}/>
+                                </Grid>
+                            </Grid>
+                        </CardContent>
+                        <hr/>
+                        <CardActions className = {classes.actionContainer}>
+                            <a href = "https://github.com/yashjain99/bikewale-clone" target="_blank">
+                                <Button className = {classes.actionButton} size = "large" >
+                                    GitHub
+                                </Button>
+                            </a>
+                            <a href = "https://bikewaleclone.netlify.app/" target = "_blank">
                                 <Button className = {classes.actionButton} size = "large" >
                                     Demo Link 🔗
                                 </Button>

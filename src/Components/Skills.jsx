@@ -20,11 +20,11 @@ const Wrapper = styled.div`
     }
 
     @media only screen and (max-width: 1000px) {
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
     @media only screen and (max-width: 800px) {
-        margin-top: 100px;
+        margin-top: 200px;
         .image {
             width: 100%;
         }

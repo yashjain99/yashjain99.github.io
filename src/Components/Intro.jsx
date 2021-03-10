@@ -36,10 +36,15 @@ const Wrapper = styled.div`
 const ImageContainer = styled.div`
     margin-top: -50px;
     height: 300px;
-    border-radius: 50%;
-
+    
     .picture {
-        border-radius: 5%;
+        border-radius: 50%;
+        padding: 10px;
+        box-shadow: -1px -1px 10px 10px #ecc94b;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        margin-bottom: 100px;
     }
 `
 
