@@ -169,4 +169,5 @@ export function Skills() {
             </div>
         </Wrapper>
     )
+
 }
